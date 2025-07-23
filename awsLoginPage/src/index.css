@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* variable */
+
+:root{
+  --primary-color-button:#00539C;
+}
