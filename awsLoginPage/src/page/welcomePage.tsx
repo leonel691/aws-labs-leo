@@ -2,7 +2,7 @@ import logo from "../../public/logo.svg"
 import Header from "../components/header"
 import CreateAccount from "../components/createButton"
 import Text from "../components/Text"
-import LigneProgressive from "../components/ligne3"
+import LigneProgressive from "../components/footerNav"
 import welcome from "../../public/welcome.svg"
 
 export default function WelcomePage() {

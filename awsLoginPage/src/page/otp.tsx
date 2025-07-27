@@ -1,7 +1,7 @@
 import Header from "../components/header"
 import InputOtp from "../components/inputOtp"
 import Text from "../components/Text"
-import LigneProgressive from "../components/ligne3"
+import LigneProgressive from "../components/footerNav"
 
 
 import CreateAccount from "../components/createButton"

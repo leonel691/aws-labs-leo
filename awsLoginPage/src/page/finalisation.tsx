@@ -3,7 +3,7 @@ import Header from "../components/header"
 import Input from "../components/signin"
 import CreateAccount from "../components/createButton"
 import Text from "../components/Text"
-import LigneProgressive from "../components/ligne3"
+import LigneProgressive from "../components/footerNav"
 
 
 export default function Finalisation() {
