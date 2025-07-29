@@ -6,11 +6,11 @@ import LigneProgressive from "../components/footerNav"
 import welcome from "../../public/welcome.svg"
 
 export default function WelcomePage() {
-    return (
-        <div className="px-[2rem] sm:px-[4rem] pt-[5rem] sm:pt-[1rem]">
+    return ( 
+        <div className="px-[2rem] lg:mb-[2rem] lg:px-[10rem] sm:px-[4rem] pt-[5rem] sm:pt-[1rem]">
             <Header images={logo} bigText="Bienvenue" smallText="Plus que 3 petites minutes ........" />
             <div className="w-full flex items-center justify-center">
-                <img className="mt-8 sm:w-[40rem]" src={welcome} alt="welcome" />
+                <img className="mt-8 sm:w-[40rem] lg:w-[50rem]" src={welcome} alt="welcome" />
             </div>
             <CreateAccount />
             <Text />

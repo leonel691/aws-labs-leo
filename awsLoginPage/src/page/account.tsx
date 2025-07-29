@@ -11,7 +11,7 @@ import InputEmail from "../components/inputEmail"
 
 export default function Account() {
     return (
-        <div className="px-[2rem] sm:px-[4rem] pt-[1rem]">
+        <div className="px-[2rem] lg:px-[10rem] sm:px-[4rem] pt-[1rem]">
             <Header images={logo} bigText="Creation de compte" smallText="Rentrez vos infos pour creer votre compte ." />
             <InputEmail type="email" label="Email" placeHolder="abc@example.com" />
             <InputPassword />
@@ -27,8 +27,6 @@ export default function Account() {
                 <LigneProgressive color='bg-[var(--bg-input)]' />
                 <LigneProgressive color='bg-[var(--bg-input)]' />
             </div>
-            
-
         </div>
     )
 }

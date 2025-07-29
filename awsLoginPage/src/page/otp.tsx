@@ -16,7 +16,7 @@ export default function Otp() {
     };
 
     return (
-        <div className="px-[2rem] sm:px-[4rem] pt-[5rem]">
+        <div className="px-[2rem] lg:px-[10rem] sm:px-[4rem] pt-[5rem]">
             <Header images={logo} bigText="Verification OTP" smallText="Rentrez vos infos pour vous connecter ." />
             <OTPInput onComplete={handleOtpComplete} />
             <CreateAccount />

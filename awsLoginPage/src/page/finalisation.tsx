@@ -8,7 +8,7 @@ import LigneProgressive from "../components/footerNav"
 
 export default function Finalisation() {
     return (
-        <div className="px-[2rem] sm:px-[4rem] pt-[1rem]">
+        <div className="px-[2rem] lg:px-[10rem] sm:px-[4rem] pt-[1rem]">
             <Header images={logo} bigText="Finalisation" smallText="Inviter 04 amis pour finaliser l’inscription ." />
             <Input type="text" label="Numeros de Télephone" placeHolder="Numero whatsapp" />
             <Input type="text" label="" placeHolder="Numero whatsapp" />
