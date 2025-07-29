@@ -16,12 +16,13 @@ export default function Otp() {
     };
 
     return (
-        <div className="px-[2rem] pt-[10rem]">
+        <div className="px-[2rem] sm:px-[4rem] pt-[5rem]">
             <Header images={logo} bigText="Verification OTP" smallText="Rentrez vos infos pour vous connecter ." />
             <OTPInput onComplete={handleOtpComplete} />
             <CreateAccount />
             <Text />
-            <div className="flex gap-2  justify-center items-center fixed bottom-4 left-1/2 -translate-x-1/2 p-4 w-screen ">
+            <div className="mb-12"></div>
+            <div className="flex gap-2 justify-center items-center fixed bottom-1 left-1/2 -translate-x-1/2 px-[2rem] w-full ">
                 <LigneProgressive color='bg-[#FFA273] opacity-[50%]' />
                 <LigneProgressive color='bg-[#FFA273]' />
                 <LigneProgressive color='bg-[var(--bg-input)]' />

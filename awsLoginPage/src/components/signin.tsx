@@ -16,7 +16,7 @@ export default function Input({ type, label, placeHolder, onPasswordChange }: Pr
 
     return (
         <form id={type} className="mt-[1.5rem]" action="" method="post">
-            <label className="font-[700] text-[1rem] font-inter">
+            <label className="font-[700] text-[1rem] sm:text-[1.2rem] font-inter">
                 {label}
                 <div className="border-[var(--border-color)] mt-[0.5rem] rounded-[0.3rem]  border-[0.1rem] flex items-center">
                     <input

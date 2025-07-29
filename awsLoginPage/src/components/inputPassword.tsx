@@ -30,7 +30,7 @@ const InputPassword: React.FC = () => {
 
   return (
     <>
-        <label htmlFor="password" className="font-[700] text-[1rem] font-inter mb-2">
+        <label htmlFor="password" className="font-[700] text-[1rem] sm:text-[1.2rem] font-inter ">
           Mot de passe:
         </label>
         <PasswordInput
@@ -39,12 +39,12 @@ const InputPassword: React.FC = () => {
         />
 
       {/* Barre du password strength */}
-      <div className="mt-5">
-        <div className="flex space-x-1 h-2 rounded-full overflow-hidden">
+      <div className="mt-2">
+        <div className="flex space-x-1 h-3 rounded-full overflow-hidden">
           {[0, 1, 2, 3].map((index) => (
             <div
               key={index}
-              className={`flex-1 rounded-full transition-colors duration-300 ${getStrengthBarColor(index)}`}
+              className={`flex-1 rounded-full transition-colors duration-[1s] ${getStrengthBarColor(index)}`}
             ></div>
           ))}
         </div>
