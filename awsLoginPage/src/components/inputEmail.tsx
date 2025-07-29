@@ -11,7 +11,7 @@ export default function InputEmail({ type, label, placeHolder }: Pros) {
 
     return (
         <form className="mt-[3rem] mb-3" action="" method="post">
-            <label className="font-[700] text-[1.2rem] font-inter">
+            <label className="font-[700] sm:text-[1.2rem] font-inter">
                 {label}
                 <div className="border-[var(--border-color)] mt-[0.5rem] rounded-[0.3rem]  border-[0.1rem] flex items-center">
                     <input
