@@ -1,5 +1,5 @@
 // import React from "react";
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route,Routes, Navigate, BrowserRouter } from 'react-router-dom'
 import Account from './page/account'
 import Otp from './page/otp'
 import Finalisation from './page/finalisation'
@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Account />} />
-        <Route path="/otp" element={<Otp />} />
+        <Route path="/Otp" element={<Otp />} />
         <Route path="/finalisation" element={<Finalisation />} />
         <Route path="/welcomePage" element={<WelcomePage />} />
         <Route path="*" element={<Error />} />
